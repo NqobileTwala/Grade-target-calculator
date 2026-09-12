@@ -3,14 +3,15 @@
 A web app that solves a problem every student has faced: "what mark do I
 actually need on my remaining assessments to hit my target grade?" Add your
 modules and assessments, set a target, and see the exact average required
-on what's left — colour-coded by how realistic it is.
+on what's left, colour-coded by how realistic it is.
 
-![Grade Target Calculator screenshot](screenshot-filled.png)
+## Grade Target Calculator screenshot
+<img width="900" height="500" alt="screenshot-filled" src="https://github.com/user-attachments/assets/935156ef-7b5d-481c-ad40-b806ad95c9b2" />
 
 ## Why I built this
 
 As a student, it's easy to lose track of whether you're actually on
-target for a module until results come out — by which point it's too
+target for a module until results come out, by which point it's too
 late to do anything about it. I wanted something that does the algebra
 for me the moment I enter a mark, and flags modules that need real
 attention before the final exam is the only thing left.
