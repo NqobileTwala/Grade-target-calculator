@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f7f5ef;
+  --paper-raised: #ffffff;
+  --ink: #201f1d;
+  --ink-muted: #5b574e;
+  --rule: #dad5c8;
+  --navy: #2b3a55;
+  --navy-tint: #e8ebf1;
+
+  --safe-text: #2e5d45;
+  --safe-tint: #e3eee7;
+  --tight-text: #7a5a15;
+  --tight-tint: #f3ead4;
+  --risk-text: #8a3b1f;
+  --risk-tint: #f5e4dc;
+  --danger-text: #7c2430;
+  --danger-tint: #f3dee0;
+
+  --font-serif: ui-serif, Georgia, "Times New Roman", serif;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-raised: var(--paper-raised);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-rule: var(--rule);
+  --color-navy: var(--navy);
+  --color-navy-tint: var(--navy-tint);
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
+
+input {
+  color: var(--ink);
+}
+
+input::placeholder {
+  color: var(--ink-muted);
+  opacity: 0.6;
+}
