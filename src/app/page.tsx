@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import ModuleCard from "@/components/ModuleCard";
 import { Module, loadModules, saveModules, newId } from "@/lib/storage";
+import MathDecoration from "@/components/MathDecoration";
 
 export default function Home() {
   const [modules, setModules] = useState<Module[]>([]);
@@ -33,8 +34,9 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen bg-[var(--paper)]">
-      <div className="mx-auto max-w-2xl px-6 py-14">
+    <main className="relative min-h-screen overflow-hidden bg-[var(--paper)]">
+      <MathDecoration />
+      <div className="relative mx-auto max-w-2xl px-6 py-14 lg:max-w-3xl">
         <header className="mb-10 border-b border-[var(--rule)] pb-6">
           <p className="font-[family-name:var(--font-sans)] text-xs uppercase tracking-wide text-[var(--ink-muted)]">
             Grade report
