@@ -70,11 +70,3 @@ you open the app.
 
 Next.js (App Router) · TypeScript · Tailwind CSS · React
 
-## Possible next steps
-
-- Export/import your modules as a JSON file (or sync via a backend +
-  database, like the HCCRM project)
-- A "what-if" slider to see how a single upcoming test result changes
-  every other module's risk level
-- Support weighted sub-categories (e.g. "labs" worth 10% made up of 5
-  smaller labs)
